@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  ARKitEarth
-//
-//  Created by Brian Advent on 04.12.17.
-//  Copyright © 2017 Brian Advent. All rights reserved.
-//
 
 import UIKit
 import SceneKit
@@ -56,10 +49,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let transform = hitTestResult.worldTransform
             let position = SCNVector3(x: transform.columns.3.x, y: transform.columns.3.y, z:transform.columns.3.z)
             
-            let newEarth = EarthNode()
+            let streets = [sunNode(), EarthNode()]
+            
+            
+            
+            let newEarth = streets[0]
+
             newEarth.position = position
             
             sceneView.scene.rootNode.addChildNode(newEarth)
+            
+         
         }
         
     }

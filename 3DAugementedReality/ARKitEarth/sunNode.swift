@@ -1,14 +1,11 @@
 
 import SceneKit
 
-class EarthNode: SCNNode {
+class sunNode: SCNNode {
     override init() {
         super.init()
         self.geometry = SCNSphere(radius: 0.2)
-        self.geometry?.firstMaterial?.diffuse.contents = UIImage(named:"Diffuse")
-        self.geometry?.firstMaterial?.specular.contents = UIImage(named:"Specular")
-        self.geometry?.firstMaterial?.emission.contents = UIImage(named:"Emission")
-        self.geometry?.firstMaterial?.normal.contents = UIImage(named:"Normal")
+        self.geometry?.firstMaterial?.diffuse.contents = UIImage(named:"DiffuseSun")
         self.geometry?.firstMaterial?.isDoubleSided = true
 
         self.geometry?.firstMaterial?.transparency = 1

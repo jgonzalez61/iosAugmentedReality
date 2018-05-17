@@ -14,10 +14,11 @@
 		52876BEC1FD5B5E90095D994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52876BEB1FD5B5E90095D994 /* Assets.xcassets */; };
 		52876BEF1FD5B5E90095D994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52876BED1FD5B5E90095D994 /* LaunchScreen.storyboard */; };
 		52876BF71FD5B6100095D994 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876BF61FD5B6100095D994 /* EarthNode.swift */; };
+		5503C79520ABF2FA00B76A33 /* sunNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5503C79420ABF2FA00B76A33 /* sunNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52876BDF1FD5B5E90095D994 /* ARKitEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52876BDF1FD5B5E90095D994 /* ARKitx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52876BE21FD5B5E90095D994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52876BE41FD5B5E90095D994 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		52876BE61FD5B5E90095D994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		52876BEE1FD5B5E90095D994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52876BF01FD5B5E90095D994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52876BF61FD5B6100095D994 /* EarthNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
+		5503C79420ABF2FA00B76A33 /* sunNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sunNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		52876BE01FD5B5E90095D994 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52876BDF1FD5B5E90095D994 /* ARKitEarth.app */,
+				52876BDF1FD5B5E90095D994 /* ARKitx.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +63,9 @@
 				52876BE21FD5B5E90095D994 /* AppDelegate.swift */,
 				52876BE41FD5B5E90095D994 /* art.scnassets */,
 				52876BE61FD5B5E90095D994 /* ViewController.swift */,
-				52876BF61FD5B6100095D994 /* EarthNode.swift */,
 				52876BE81FD5B5E90095D994 /* Main.storyboard */,
+				52876BF61FD5B6100095D994 /* EarthNode.swift */,
+				5503C79420ABF2FA00B76A33 /* sunNode.swift */,
 				52876BEB1FD5B5E90095D994 /* Assets.xcassets */,
 				52876BED1FD5B5E90095D994 /* LaunchScreen.storyboard */,
 				52876BF01FD5B5E90095D994 /* Info.plist */,
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52876BDE1FD5B5E90095D994 /* ARKitEarth */ = {
+		52876BDE1FD5B5E90095D994 /* ARKitx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52876BF31FD5B5E90095D994 /* Build configuration list for PBXNativeTarget "ARKitEarth" */;
+			buildConfigurationList = 52876BF31FD5B5E90095D994 /* Build configuration list for PBXNativeTarget "ARKitx" */;
 			buildPhases = (
 				52876BDB1FD5B5E90095D994 /* Sources */,
 				52876BDC1FD5B5E90095D994 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = ARKitEarth;
+			name = ARKitx;
 			productName = ARKitEarth;
-			productReference = 52876BDF1FD5B5E90095D994 /* ARKitEarth.app */;
+			productReference = 52876BDF1FD5B5E90095D994 /* ARKitx.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52876BDA1FD5B5E90095D994 /* Build configuration list for PBXProject "ARKitEarth" */;
+			buildConfigurationList = 52876BDA1FD5B5E90095D994 /* Build configuration list for PBXProject "ARKitx" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52876BDE1FD5B5E90095D994 /* ARKitEarth */,
+				52876BDE1FD5B5E90095D994 /* ARKitx */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5503C79520ABF2FA00B76A33 /* sunNode.swift in Sources */,
 				52876BE71FD5B5E90095D994 /* ViewController.swift in Sources */,
 				52876BF71FD5B6100095D994 /* EarthNode.swift in Sources */,
 				52876BE31FD5B5E90095D994 /* AppDelegate.swift in Sources */,
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52876BDA1FD5B5E90095D994 /* Build configuration list for PBXProject "ARKitEarth" */ = {
+		52876BDA1FD5B5E90095D994 /* Build configuration list for PBXProject "ARKitx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52876BF11FD5B5E90095D994 /* Debug */,
@@ -324,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52876BF31FD5B5E90095D994 /* Build configuration list for PBXNativeTarget "ARKitEarth" */ = {
+		52876BF31FD5B5E90095D994 /* Build configuration list for PBXNativeTarget "ARKitx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52876BF41FD5B5E90095D994 /* Debug */,
