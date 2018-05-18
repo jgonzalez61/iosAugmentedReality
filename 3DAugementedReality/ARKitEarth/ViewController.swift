@@ -48,16 +48,16 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         if let hitTestResult = hitResults.first {
             let transform = hitTestResult.worldTransform
             let position = SCNVector3(x: transform.columns.3.x, y: transform.columns.3.y, z:transform.columns.3.z)
-            
-            let streets = [sunNode(), EarthNode()]
-            
-            
-            
-            let newEarth = streets[0]
 
-            newEarth.position = position
+            let Array_of_bodies = [sunNode(), EarthNode()]//this is an array that stores node function
             
-            sceneView.scene.rootNode.addChildNode(newEarth)
+            let randomIndex = Int(arc4random_uniform(UInt32(Array_of_bodies.count)))//pick random index from array
+            
+            let pickedBody = Array_of_bodies[randomIndex]//set pickedBody to chosen index 
+
+            pickedBody.position = position
+            
+            sceneView.scene.rootNode.addChildNode(pickedBody)
             
          
         }
