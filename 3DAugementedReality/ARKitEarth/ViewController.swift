@@ -53,7 +53,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             let randomIndex = Int(arc4random_uniform(UInt32(Array_of_bodies.count)))//pick random index from array
             
-            let pickedBody = Array_of_bodies[1]//set pickedBody to chosen index
+            let pickedBody = Array_of_bodies[0]//set pickedBody to chosen index
 
             pickedBody.position = position
             

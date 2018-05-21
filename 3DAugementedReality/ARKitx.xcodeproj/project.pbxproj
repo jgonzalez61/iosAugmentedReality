@@ -13,8 +13,15 @@
 		52876BEA1FD5B5E90095D994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52876BE81FD5B5E90095D994 /* Main.storyboard */; };
 		52876BEC1FD5B5E90095D994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52876BEB1FD5B5E90095D994 /* Assets.xcassets */; };
 		52876BEF1FD5B5E90095D994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52876BED1FD5B5E90095D994 /* LaunchScreen.storyboard */; };
-		52876BF71FD5B6100095D994 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876BF61FD5B6100095D994 /* EarthNode.swift */; };
+		52876BF71FD5B6100095D994 /* earh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876BF61FD5B6100095D994 /* earh.swift */; };
 		5503C79520ABF2FA00B76A33 /* sunNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5503C79420ABF2FA00B76A33 /* sunNode.swift */; };
+		55D3B56A20B37AB400DB348D /* neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B56920B37AB400DB348D /* neptune.swift */; };
+		55D3B56C20B37AB600DB348D /* uranus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B56B20B37AB600DB348D /* uranus.swift */; };
+		55D3B56E20B37AB900DB348D /* saturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B56D20B37AB900DB348D /* saturn.swift */; };
+		55D3B57020B37ABB00DB348D /* jupiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B56F20B37ABB00DB348D /* jupiter.swift */; };
+		55D3B57220B37ABC00DB348D /* mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B57120B37ABC00DB348D /* mars.swift */; };
+		55D3B57420B37ABD00DB348D /* venus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B57320B37ABD00DB348D /* venus.swift */; };
+		55D3B57620B37AC000DB348D /* mercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3B57520B37AC000DB348D /* mercury.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +33,15 @@
 		52876BEB1FD5B5E90095D994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52876BEE1FD5B5E90095D994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52876BF01FD5B5E90095D994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52876BF61FD5B6100095D994 /* EarthNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
+		52876BF61FD5B6100095D994 /* earh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = earh.swift; sourceTree = "<group>"; };
 		5503C79420ABF2FA00B76A33 /* sunNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sunNode.swift; sourceTree = "<group>"; };
+		55D3B56920B37AB400DB348D /* neptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neptune.swift; sourceTree = "<group>"; };
+		55D3B56B20B37AB600DB348D /* uranus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uranus.swift; sourceTree = "<group>"; };
+		55D3B56D20B37AB900DB348D /* saturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saturn.swift; sourceTree = "<group>"; };
+		55D3B56F20B37ABB00DB348D /* jupiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jupiter.swift; sourceTree = "<group>"; };
+		55D3B57120B37ABC00DB348D /* mars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mars.swift; sourceTree = "<group>"; };
+		55D3B57320B37ABD00DB348D /* venus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venus.swift; sourceTree = "<group>"; };
+		55D3B57520B37AC000DB348D /* mercury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mercury.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +78,15 @@
 				52876BE41FD5B5E90095D994 /* art.scnassets */,
 				52876BE61FD5B5E90095D994 /* ViewController.swift */,
 				52876BE81FD5B5E90095D994 /* Main.storyboard */,
-				52876BF61FD5B6100095D994 /* EarthNode.swift */,
 				5503C79420ABF2FA00B76A33 /* sunNode.swift */,
+				55D3B57520B37AC000DB348D /* mercury.swift */,
+				55D3B57320B37ABD00DB348D /* venus.swift */,
+				52876BF61FD5B6100095D994 /* earh.swift */,
+				55D3B57120B37ABC00DB348D /* mars.swift */,
+				55D3B56F20B37ABB00DB348D /* jupiter.swift */,
+				55D3B56D20B37AB900DB348D /* saturn.swift */,
+				55D3B56B20B37AB600DB348D /* uranus.swift */,
+				55D3B56920B37AB400DB348D /* neptune.swift */,
 				52876BEB1FD5B5E90095D994 /* Assets.xcassets */,
 				52876BED1FD5B5E90095D994 /* LaunchScreen.storyboard */,
 				52876BF01FD5B5E90095D994 /* Info.plist */,
@@ -148,8 +169,15 @@
 			files = (
 				5503C79520ABF2FA00B76A33 /* sunNode.swift in Sources */,
 				52876BE71FD5B5E90095D994 /* ViewController.swift in Sources */,
-				52876BF71FD5B6100095D994 /* EarthNode.swift in Sources */,
+				55D3B57020B37ABB00DB348D /* jupiter.swift in Sources */,
+				55D3B56E20B37AB900DB348D /* saturn.swift in Sources */,
+				55D3B56C20B37AB600DB348D /* uranus.swift in Sources */,
+				52876BF71FD5B6100095D994 /* earh.swift in Sources */,
+				55D3B57420B37ABD00DB348D /* venus.swift in Sources */,
 				52876BE31FD5B5E90095D994 /* AppDelegate.swift in Sources */,
+				55D3B56A20B37AB400DB348D /* neptune.swift in Sources */,
+				55D3B57220B37ABC00DB348D /* mars.swift in Sources */,
+				55D3B57620B37AC000DB348D /* mercury.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
