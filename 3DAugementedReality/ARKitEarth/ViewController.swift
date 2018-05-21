@@ -39,6 +39,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
+    var i = 0;//array index
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
         let location = touch?.location(in: sceneView)
@@ -48,18 +50,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         if let hitTestResult = hitResults.first {
             let transform = hitTestResult.worldTransform
             let position = SCNVector3(x: transform.columns.3.x, y: transform.columns.3.y, z:transform.columns.3.z)
-
-            let Array_of_bodies = [sunNode(), EarthNode()]//this is an array that stores node function
             
-            let randomIndex = Int(arc4random_uniform(UInt32(Array_of_bodies.count)))//pick random index from array
+            //array of space bodies
+            let Array_of_bodies = [sunNode(), mercury(),venus(),EarthNode(),mars(),jupiter(),saturn(),uranus(),neptune()]
             
-            let pickedBody = Array_of_bodies[0]//set pickedBody to chosen index
+//            let randomIndex = Int(arc4random_uniform(UInt32(Array_of_bodies.count)))//pick random index from array
+            
+            let pickedBody = Array_of_bodies[i]//set pickedBody to chosen index
 
             pickedBody.position = position
             
             sceneView.scene.rootNode.addChildNode(pickedBody)
             
+            let lastIndex = Array_of_bodies.count-1 //Get index of last space body
+            
+            if i == lastIndex{//iterate through array and loop
+                i=0;
+            }else{
+                i=i+1;
+            }
          
+            
         }
         
     }
