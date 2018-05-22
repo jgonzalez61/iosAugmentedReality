@@ -54,8 +54,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             //array of space bodies
             let Array_of_bodies = [sunNode(), mercury(),venus(),EarthNode(),mars(),jupiter(),saturn(),uranus(),neptune()]
             
-//            let randomIndex = Int(arc4random_uniform(UInt32(Array_of_bodies.count)))//pick random index from array
-            
             let pickedBody = Array_of_bodies[i]//set pickedBody to chosen index
 
             pickedBody.position = position
@@ -65,9 +63,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let lastIndex = Array_of_bodies.count-1 //Get index of last space body
             
             if i == lastIndex{//iterate through array and loop
-                i=0;
+                i=0;//re-starts array iteration
             }else{
-                i=i+1;
+                i=i+1;//traverse array
             }
          
             

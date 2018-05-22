@@ -4,7 +4,7 @@ import SceneKit
 class venus: SCNNode {
     override init() {
         super.init()
-        self.geometry = SCNSphere(radius: 0.2)
+        self.geometry = SCNSphere(radius: 0.2)// set sphere radious
         self.geometry?.firstMaterial?.diffuse.contents = UIImage(named:"venus")
       
         self.geometry?.firstMaterial?.isDoubleSided = true
